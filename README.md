@@ -1,6 +1,8 @@
 # Meplis
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+This project uses a version of node 14 or higher.
+Project created for meplis selection process.
 
 ## Development server
 
