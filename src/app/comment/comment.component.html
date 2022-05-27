@@ -1,0 +1,19 @@
+<div class="comment-section">
+    <div class="row center" *ngFor="let comment of comments">
+        <div class="p-grid">
+            <div class="comment mt-4 text-justify float-left p-col-6 p-offset-3">
+                <div class="active">
+                    <i class="pi pi-thumbs-down p-1" style='color:rgb(253, 17, 0)'></i>
+                    <i class="pi pi-thumbs-up" style='color:rgb(3, 77, 13)'></i>
+                </div>
+                <img [src]="comment.avatar" alt="" class="rounded-circle p-1">
+                <h4>{{comment.name}}</h4>
+                <br>
+                <p>{{comment.comment}}</p>
+                <br>
+                
+  
+            </div>
+        </div>
+    </div>
+  </div>
