@@ -7,9 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestUiComponent implements OnInit {
 
-  avatar1 = '/assets/img/avatar_MG.jpg'
-  avatar2 = '/assets/img/meplis.png'
-  avatar3 = '/assets/img/avatar2.jpg'
   constructor() { }
 
   ngOnInit(): void {
